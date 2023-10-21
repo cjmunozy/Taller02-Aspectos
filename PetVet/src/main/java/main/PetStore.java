@@ -72,6 +72,7 @@ public class PetStore {
         users.get(id-1).setAppointment(date);
     }
     
+    
     public static void UpdateLevel(){
         int id = Integer.valueOf(readConsole("Key: "));
         String assurance = readConsole("Membership level: ");
